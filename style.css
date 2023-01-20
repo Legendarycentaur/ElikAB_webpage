@@ -1,5 +1,9 @@
+
+
+/*Goodag*/
+
 body {
-  background-color: rgb(118, 111, 111);
+  background-color: rgb(0, 0, 0);
   overflow-x: hidden;
   height: fit-content;
   display:block;
@@ -12,11 +16,11 @@ html ::-webkit-scrollbar {
 
 
 #i {
-  color: red;
+  color: rgb(255, 0, 0);
 }
 
 a {
-  color: #000000;
+  color: #ffffff;
   text-decoration: none;
 
 
@@ -83,7 +87,7 @@ a {
 
 }
 .top-nav-mobil a:hover{
-  color: #b4b4b4;
+  color: #ffffff;
 }
 
 
@@ -124,7 +128,7 @@ a {
 .menu-button::before,
 .menu-button::after {
   display: block;
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
   position: absolute;
   height: 4px;
   width: 30px;
@@ -214,7 +218,7 @@ a {
     width: 100px;
     position: relative;
     left: 20px;
-    color: #fffdfd;
+    color: #ffffff;
     font-family: 'Oswald', sans-serif;
     
     
@@ -232,7 +236,7 @@ h2{
   height: 400px;
   background: #8E2DE2;
   background: -webkit-linear-gradient(to right, #100f0f, #edebef);
-  background: linear-gradient(to left, #f80606, #272626);
+  background: linear-gradient(to right, #100f0f, #edebef);
   transform-origin: 10% 150% 0;
   position: relative;
   left: 0px;
@@ -247,7 +251,7 @@ h2{
   height: 400px;
   background: #f1f1f1;
   background: -webkit-linear-gradient(to right, #e03800, #170923);
-  background: linear-gradient(to left, #6d6969, #ffffff);
+  background: linear-gradient(to right, #e03800, #170923);
   transform-origin: 65% 100% 0;
   position: absolute;
   right: 0;
@@ -342,7 +346,7 @@ h2{
 .circle-1 {
   width: 50px;
   height: 50px;
-  border: 2px solid rgba(0, 0, 0, 0.659);
+  border: 2px solid rgba(255, 255, 255, 0.659);
   position: absolute;
   display: block;
   border-radius: 60%;
@@ -357,7 +361,7 @@ h2{
   height: 70px;
   top: 10%;
   left: 73%;
-  border: 2px solid rgb(0, 0, 0);
+  border: 2px solid #fff;
   position: absolute;
   display: block;
   border-radius: 50%;
@@ -370,7 +374,7 @@ h2{
   right: 25%;
   width: 40px;
   height: 40px;
-  border: 2px solid rgb(0, 0, 0);
+  border: 2px solid #fff;
   position: absolute;
   display: block;
   border-radius: 50%;
@@ -426,8 +430,7 @@ h2{
 }
 
 .triangle-1 {
-  right: 40px;
-  top: 80px;
+  right: 50px;
   animation: fadeInFromTop .5s linear forwards, floating ease-in-out 6s infinite;
 }
 
@@ -473,25 +476,22 @@ h2{
   transform: rotate(-40deg);
 }
 .jumbotronstartsida h1 {
-  color: rgb(0, 0, 0);
-  font-weight: 550;
-  display: flex;
+
+  color: rgb(255, 255, 255);
+  line-height: 0.8;
+  font-weight: bold;
   border: 0px solid rgb(255, 255, 255);
-  padding: 30px 50px;
   font-size: 5rem;
   opacity: 0;
   animation: 1s fadeInFromTop cubic-bezier(0.785, 0.135, 0.15, 0.86) 1s forwards;
-  animation-delay: .1s;
-  position: relative;
-  top: 100px;
+  animation-delay: .10s;
+  position: absolute;
+  top: 35%;
   z-index: 1;
   justify-content: center;
   font-weight: 550;
   font-family: Garamond, 'Times New Roman', Times, serif;
   text-align: center;
-  writing-mode: vertical-lr;
-  top: 200px;
-  left:29%;
 }
 .jumbotron h1 {
 
@@ -535,10 +535,8 @@ h2{
   color: gray;
 }
 .column{
-  margin-top: 20px;
+  margin-top: 25px;
 }
-
-
 .textdel h2{
   position: relative;
   left: 0;
@@ -678,7 +676,7 @@ h2{
   left: 0;
   width: 99%;
   height:fit-content;
-  background-color: #fff;
+  background-color: rgb(255, 255, 255);
   font-family: 'Oswald', sans-serif;
   text-align: center;
   padding: 0 10px 20px 5px;
