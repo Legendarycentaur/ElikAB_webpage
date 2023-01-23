@@ -479,13 +479,19 @@ h2{
   transform: rotate(-40deg);
 }
 
-.jumbotronText {
+.jumbotronSpace {
   
   justify-content: center;
   border: 0px solid rgb(255, 255, 255);
-  z-index: 100;
+  z-index: 0;
   height: 100vh;
   
+}
+.jumbotronText {
+  position:absolute;
+  color: #fff;
+  top: 40%;
+  left: 25vW;
 }
 .jumbotronstartsida h1 {
   color: rgb(255, 255, 255);
