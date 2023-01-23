@@ -169,6 +169,7 @@ a {
 @media (max-width: 1000px) {
   .menu-button-container {
     display: flex;
+    
   }
 
   .menu {
@@ -188,6 +189,7 @@ a {
     padding: 0;
     border: 0;
     transition: height 900ms cubic-bezier(0.23, 1, 0.32, 1);
+    
   }
 
   #menu-toggle:checked~.menu li {
@@ -232,23 +234,23 @@ h2{
 
 /*jubotron*/
 .rectangle-1 {
-  width: 2000px;
-  height: 400px;
+  width: 100vh;
+  height: 100vh;
   background: #8E2DE2;
   background: -webkit-linear-gradient(to right, #100f0f, #edebef);
   background: linear-gradient(to right, #100f0f, #edebef);
   transform-origin: 10% 150% 0;
-  position: relative;
+  position: absolute;
   left: 0px;
-  top: -100px;
+  top: 0px;
   z-index: 0;
   transform: scale(1) rotate(-10deg);
 
 }
 
 .rectangle-2 {
-  width: 2000px;
-  height: 400px;
+  width: 100vh;
+  height: 100vh;
   background: #f1f1f1;
   background: -webkit-linear-gradient(to right, #e03800, #170923);
   background: linear-gradient(to right, #e03800, #170923);
@@ -322,8 +324,8 @@ h2{
 }
 
 .rectangle-transparent-1 {
-  width: 500px;
-  height: 500px;
+  width: 0px;
+  height: 00px;
   border: 55px solid rgba(255, 255, 255, 0.08);
   position: absolute;
   left: 5%;
@@ -333,12 +335,12 @@ h2{
 }
 
 .rectangle-transparent-2 {
-  width: 600px;
-  height: 600px;
+  width: 0vh;
+  height: 0vh;
   border: 15px solid rgba(255, 255, 255, 0.08);
   position: absolute;
-  right: -10%;
-  top: 5%;
+  right: -40vh;
+  top: 50vh;
   display: block;
   animation: floating-slow ease-in-out 12s infinite;
 }
@@ -430,8 +432,9 @@ h2{
 }
 
 .triangle-1 {
-  right: 50px;
-  animation: fadeInFromTop .5s linear forwards, floating ease-in-out 6s infinite;
+  right: 55vh;
+  top: 80vh;
+  animation: fadeInFromTop .5s linear forwards, floating ease-in-out 20s infinite;
 }
 
 .triangle-1 img {
@@ -475,23 +478,28 @@ h2{
   height: 45px;
   transform: rotate(-40deg);
 }
-.jumbotronstartsida h1 {
 
+.jumbotronText {
+  
+  justify-content: center;
+  border: 0px solid rgb(255, 255, 255);
+  z-index: 100;
+  height: 100vh;
+  
+}
+.jumbotronstartsida h1 {
   color: rgb(255, 255, 255);
   line-height: 0.8;
   font-weight: bold;
-  border: 0px solid rgb(255, 255, 255);
+  /*padding: 30px 50px;*/
   font-size: 5rem;
   opacity: 0;
   animation: 1s fadeInFromTop cubic-bezier(0.785, 0.135, 0.15, 0.86) 1s forwards;
-  animation-delay: .10s;
-  position: absolute;
-  top: 35%;
+  animation-delay: .001s;
   z-index: 1;
-  justify-content: center;
   font-weight: 550;
   font-family: Garamond, 'Times New Roman', Times, serif;
-  text-align: center;
+
 }
 .jumbotron h1 {
 
@@ -516,14 +524,16 @@ h2{
 
 /* nedre vita delen */
 .textdel {
-  position: absolute;
+  top: 0;
+  position: relative;
   left: 0;
-  width: 99%;
-  height: 720px;
-  background-color: #fff;
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(255, 255, 255);
   font-family: 'Oswald', sans-serif;
   text-align: center;
-  padding: 10px;
+  padding: 0px;
+  z-index: 2;
   
 }
 .Email{
