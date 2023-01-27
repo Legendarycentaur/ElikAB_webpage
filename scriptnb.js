@@ -3,7 +3,7 @@ function changeBG(){
     var scrollValue= window.scrollY;
     var navbar=document.getElementById('navbar');
     console.log(scrollValue);
-    if(scrollValue>150){
+    if(scrollValue>0){
         navbar.classList.add('addcolor');
     }
     else{
