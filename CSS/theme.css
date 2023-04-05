@@ -1,0 +1,15 @@
+:root{
+    --backgroundcolor: #fffbff;
+    --jumbotrontoptriangle:#DA0037;
+    --jumbotronbottomtriangle:#444444;
+    --navbarbackgroundcolor: #fffbff;
+    --navbarmenucolor:#000000;
+    --navbarmenuhovercolor:#dd0d0d;
+    --contentcolor:#858585;
+    --forgroundcolor:#ffffff;
+    --loggamaincolor:#171717;
+    --colorofi:#ff0000;
+    --contenttextcolor:#ffffff;
+    --navbardistancebetween:20px;
+    --paddingfooter:20px;
+}
